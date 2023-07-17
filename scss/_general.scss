@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'sgothic-bdcap';
+  src: url('../fonts/SolanoGothicMVBStdBdCap.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'sgothic-bd';
+  src: url('../fonts/SolanoGothicMVB-Bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'zizou-slablight';
+  src: url('../fonts/zizou_Zizou-SlabLight.otf') format('truetype');
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--dark);
+  font-family: 'zizou-slablight', Arial, Helvetica, sans-serif;
+}
+
+label.error {
+  color: red;
+  font-size: 12px;
+}
+
+.text-modal-bold {
+  font-family: 'sgothic-bd', sans-serif;
+}

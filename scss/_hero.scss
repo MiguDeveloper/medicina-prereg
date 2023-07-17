@@ -1,0 +1,42 @@
+.hero-image {
+  height: 50vh;
+  background: url('../img/saludBienestar.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  @include breakpoint-up(medium) {
+    min-height: 100vh;
+  }
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 14px;
+  & h1,
+  & h2 {
+    font-family: 'sgothic-bd', Arial, Helvetica, sans-serif;
+    background: var(--red-dark);
+    color: white;
+    display: table;
+    padding: 3px 7px;
+  }
+  & h1 {
+    font-size: 3rem;
+  }
+  & h2 {
+    font-size: 2.5rem;
+  }
+}
+
+#logo-hero {
+  position: absolute;
+  right: 37px;
+  top: 27px;
+  width: 70px;
+
+  @include breakpoint-up(medium) {
+    width: 100px;
+  }
+}
