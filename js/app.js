@@ -18,7 +18,7 @@ $(document).ready(function () {
   const initCuotas = () => {
     nroDeCuotas.forEach((cuota) => {
       $('#nroDeCuotas').append(
-        `<option value="${cuota.id}">${cuota.cuota}</option>`
+        `<option value="${cuota.id}" selected="selected">${cuota.cuota}</option>`
       );
     });
   };
@@ -219,7 +219,8 @@ $(document).ready(function () {
       console.log(data);
       Swal.fire({
         icon: 'success',
-        title: 'Tus datos fueron registrados correctamente',
+        title:
+          'Tus datos fueron registrados correctamente. Las credenciales (usuario y contraseña) han sido enviadas al correo registrado.',
         confirmButtonColor: 'crimson',
         focusConfirm: false,
       });

@@ -8,20 +8,9 @@ const categoriasDePago = [
   { id: 'B', categoria: 'B' },
   { id: 'C', categoria: 'C' },
   { id: 'D', categoria: 'D' },
-  { id: 'Q', categoria: 'Q' },
-  { id: 'R', categoria: 'R' },
-  { id: 'S', categoria: 'S' },
-  { id: 'T', categoria: 'T' },
-  { id: 'U', categoria: 'U' },
-  { id: 'X', categoria: 'X' },
-  { id: 'Y', categoria: 'Y' },
-  { id: 'Z', categoria: 'Z' },
 ];
 
-const nroDeCuotas = [
-  { id: '5', cuota: '5' },
-  { id: '6', cuota: '6' },
-];
+const nroDeCuotas = [{ id: '5', cuota: '5' }];
 
 const TITULO_TERMINOS = 'Beca Medicina UPC: Términos y Condiciones 2023';
 const TITULO_POLITICAS =
